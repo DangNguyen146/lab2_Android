@@ -62,4 +62,14 @@
         app:layout_constraintEnd_toEndOf="@+id/btn2"
         app:layout_constraintStart_toEndOf="@+id/btn4"
         app:layout_constraintTop_toTopOf="@+id/btn4" />
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Bài tập 6"
+        app:layout_constraintBottom_toBottomOf="@+id/btn5"
+        app:layout_constraintEnd_toEndOf="@+id/btn3"
+        app:layout_constraintStart_toStartOf="@+id/btn3"
+        app:layout_constraintTop_toTopOf="@+id/btn5" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -39,5 +39,8 @@ public class Employee5  {
             this.manager = manager;
         }
 
-
+    public boolean isManager()
+    {
+        return manager;
+    }
 }
